@@ -7,7 +7,7 @@ class Dropbox(object):
         try:
             self.__app_keys = open(
                 os.path.expanduser('~') +
-                '/Dropbox/.dropbox_screenshot_keys', 'r'
+                '/Dropbox/Stuff/.dropbox_screenshot_keys', 'r'
             )
         except IOError:
             print('You need to get the dropbox app keys from me'
@@ -17,7 +17,7 @@ class Dropbox(object):
         try:
             self.__access_token = open(
                 os.path.expanduser('~') +
-                '/Dropbox/.secret_auth', 'r'
+                '/Dropbox/Stuff/.secret_auth', 'r'
             ).readline()
         except IOError:
             self.__create_auth()
