@@ -5,3 +5,4 @@ Screenshot to Dropbox uploader for Linux environments (Python, Dropbox API)
 
 - You must have [Python 2](https://www.python.org/downloads/) installed
 - Packages Xlib and Dropbox must be installed to the Python interpreter
+- You must have client/secret keys for the dropbox api
